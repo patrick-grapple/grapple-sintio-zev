@@ -20,7 +20,7 @@
         },
         // filter: { where:{ "postalCode":44000 } },
         // css: "background-color: rgb(204 90 113 / var(--tw-bg-opacity));"
-        // css: "display: none;"
+        css: "display: none;"
       },
     });
   });
@@ -104,10 +104,10 @@
 
   <div class="p-8 grid gap-3">
     <div>
-      <h2 class="text-xl">Unternehmen (organisations):</h2>
+      <!-- <h2 class="text-xl">Unternehmen (organisations):</h2> -->
       <div class="uimodule1" bind:this={el1} />
 
-      <br /><br /><hr style="border-top-width:10px;" /><br /><br />
+      <!-- <br /><br /><hr style="border-top-width:10px;" /><br /><br /> -->
 
       <h2 class="text-xl">Benutzer (users):</h2>
       <div class="uimodule3" bind:this={el3} />
